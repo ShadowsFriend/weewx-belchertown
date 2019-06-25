@@ -69,7 +69,6 @@
         <meta property="og:site_name" content="$head_title" />
 
         <link rel='dns-prefetch' href='//code.highcharts.com' />
-        <link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
 
         <link rel='stylesheet' href='$relative_url/css/latostyle.css' type='text/css' media='all' />
         <link rel='stylesheet' href='$relative_url/css/fontawesome-all.min.css' type='text/css' media='all' />
@@ -96,7 +95,7 @@
         <script type='text/javascript' src="$relative_url/js/jquery-ui.min.js"></script>
         <script type='text/javascript' src="$relative_url/js/moment-with-locales.min.js"></script>
         #if $page == "home" and $Extras.has_key("mqtt_websockets_enabled") and $Extras.mqtt_websockets_enabled == '1'
-        <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js"></script>
+        <script type='text/javascript' src="$relative_url/js/paho-mqtt.min.js"></script>
         #end if
         <script type='text/javascript' src='//code.highcharts.com/stock/7.1.2/highstock.js'></script>
         <script type='text/javascript' src='//code.highcharts.com/7.1.2/highcharts-more.js'></script>
