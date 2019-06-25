@@ -45,7 +45,8 @@ class BelchertownInstaller(ExtensionInstaller):
                    ('skins/Belchertown/about', ['skins/Belchertown/about/index.html.tmpl']),
                    ('skins/Belchertown/css', ['skins/Belchertown/css/latostyle.css',
                                               'skins/Belchertown/css/fontawesome-all.min.css',
-                                              'skins/Belchertown/css/weather-icons.min.css'
+                                              'skins/Belchertown/css/weather-icons.min.css',
+                                              'skins/Belchertown/css/jquery-ui.min.css'
                                              ]
                    ),
                    ('skins/Belchertown/fonts', ['skins/Belchertown/fonts/Lato-Bold.woff2',
@@ -71,7 +72,9 @@ class BelchertownInstaller(ExtensionInstaller):
                    ('skins/Belchertown/js', ['skins/Belchertown/js/belchertown.js.tmpl',
                                              'skins/Belchertown/js/index.html',
                                              'skins/Belchertown/js/responsive-menu.js',
-                                             'skins/Belchertown/js/html5shiv.min.js'
+                                             'skins/Belchertown/js/html5shiv.min.js',
+                                             'skins/Belchertown/js/jquery-ui.min.js',
+                                             'skins/Belchertown/js/jquery.min.js'
                                             ]
                     ),
                    ('skins/Belchertown/json', ['skins/Belchertown/json/index.html',
