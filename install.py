@@ -76,7 +76,9 @@ class BelchertownInstaller(ExtensionInstaller):
                                              'skins/Belchertown/js/html5shiv.min.js',
                                              'skins/Belchertown/js/jquery-ui.min.js',
                                              'skins/Belchertown/js/jquery.min.js',
-                                             'skins/Belchertown/js/bootstrap.min.js'
+                                             'skins/Belchertown/js/bootstrap.min.js',
+                                             'skins/Belchertown/js/moment-with-locales.min.js',
+                                             'skins/Belchertown/js/moment.min.js'
                                             ]
                     ),
                    ('skins/Belchertown/json', ['skins/Belchertown/json/index.html',
