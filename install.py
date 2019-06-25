@@ -79,7 +79,10 @@ class BelchertownInstaller(ExtensionInstaller):
                                              'skins/Belchertown/js/bootstrap.min.js',
                                              'skins/Belchertown/js/moment-with-locales.min.js',
                                              'skins/Belchertown/js/moment.min.js',
-                                             'skins/Belchertown/js/paho-mqtt.min.js'
+                                             'skins/Belchertown/js/paho-mqtt.min.js',
+                                             'skins/Belchertown/js/highcharts-more.js',
+                                             'skins/Belchertown/js/highstock.js',
+                                             'skins/Belchertown/js/highstock-exporting.js'
                                             ]
                     ),
                    ('skins/Belchertown/json', ['skins/Belchertown/json/index.html',
