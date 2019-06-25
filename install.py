@@ -43,6 +43,12 @@ class BelchertownInstaller(ExtensionInstaller):
                                          ]
                     ),
                    ('skins/Belchertown/about', ['skins/Belchertown/about/index.html.tmpl']),
+                   ('skins/Belchertown/css', ['skins/Belchertown/css/latostyle.css']),
+                   ('skins/Belchertown/fonts', ['skins/Belchertown/fonts/Lato-Bold.woff2',
+                                                'skins/Belchertown/fonts/Lato-Light.woff2',
+                                                'skins/Belchertown/fonts/Lato-Regular.woff2'
+                                               ]
+                   ),
                    ('skins/Belchertown/graphs', ['skins/Belchertown/graphs/index.html.tmpl']),
                    ('skins/Belchertown/NOAA', ['skins/Belchertown/NOAA/NOAA-YYYY-MM.txt.tmpl',
                                                'skins/Belchertown/NOAA/NOAA-YYYY.txt.tmpl'
