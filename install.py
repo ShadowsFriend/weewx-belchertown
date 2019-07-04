@@ -70,7 +70,8 @@ class BelchertownInstaller(ExtensionInstaller):
                    ('skins/Belchertown/reports', ['skins/Belchertown/reports/index.html.tmpl']),
                    ('skins/Belchertown/js', ['skins/Belchertown/js/belchertown.js.tmpl',
                                              'skins/Belchertown/js/index.html',
-                                             'skins/Belchertown/js/responsive-menu.js'
+                                             'skins/Belchertown/js/responsive-menu.js',
+                                             'skins/Belchertown/js/html5shiv.min.js'
                                             ]
                     ),
                    ('skins/Belchertown/json', ['skins/Belchertown/json/index.html',
